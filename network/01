@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jolevy <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/03/24 17:42:51 by jolevy            #+#    #+#              #
+#    Updated: 2018/03/24 18:37:40 by jolevy           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#en is Ethernet
+#lo is loop back or local host
+#awdl is air drop peer to peer (a type of mesh network)
+#bridge is a connection between networks
+#p2p is sometimes a virtualization link and also some people have reported it being used #with AirDrop before that changed to be awdl0
+#
+#
+ifconfig -l
+echo "ifconfig -l"

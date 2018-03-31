@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jolevy <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/03/28 13:19:15 by jolevy            #+#    #+#              #
+#    Updated: 2018/03/28 13:19:17 by jolevy           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+echo "~/.ssh/authorized_keys" 
+
+~/.ssh/authorized_keys
+
+# you can configure that here '/etc/ssh/sshd_config' sous le mot-clef #AuthorizedKeysFile

@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: jolevy <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/03/30 15:03:28 by jolevy            #+#    #+#              #
+#    Updated: 2018/03/30 15:03:30 by jolevy           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
+echo"echo "crontab -l 0 4 * * * apt-get update >> /var/log/update_script.log && apt-get upgrade >> /var/log/update_script.log" >> tmpfile
+sh tmpfile
+rm tmpfile"
+
+
+echo "crontab -l 0 4 * * * apt-get update >> /var/log/update_script.log && apt-get upgrade >> /var/log/update_script.log" >> tmpfile
+sh tmpfile
+rm tmpfile
